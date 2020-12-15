@@ -20,6 +20,7 @@ class QuitApplication(QMainWindow):
 
         self.setCentralWidget(mainFrame)
 
+
     #按钮单击事件的方法（自定义的槽）
     def onClick_Button(self):
         sender = self.sender()
