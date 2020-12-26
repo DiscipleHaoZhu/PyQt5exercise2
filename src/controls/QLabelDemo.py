@@ -50,7 +50,7 @@ class QLabelDemo(QWidget):
 
         label3.setToolTip('这是一个图片标签')
 
-        label3.setPixmap(QPixmap("./Images/board.jpg"))
+        label3.setPixmap(QPixmap("../Images/board.jpg"))
         #如果设置为True，用浏览器打开网页，如果为False，调用槽函数
         label4.setOpenExternalLinks(True)
 

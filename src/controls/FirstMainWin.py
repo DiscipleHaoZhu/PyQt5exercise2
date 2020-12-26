@@ -28,7 +28,7 @@ class FirstMainWin(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
 
-    app.setWindowIcon(QIcon('./Icons/LogicAnalyser.ico'))
+    app.setWindowIcon(QIcon('../Icons/LogicAnalyser.ico'))
     main = FirstMainWin()
     main.show()
     #main.center()
