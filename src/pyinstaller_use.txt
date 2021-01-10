@@ -1,0 +1,10 @@
+使用pyinstaller打包程序
+
+pip install pyinstaller
+
+在命令提示符窗口，在要打包的程序目录下运行
+pyinstaller -Fw ***.py
+
+-F：将所有的库打包成一个单独的文件
+-w：不显示终端
+
